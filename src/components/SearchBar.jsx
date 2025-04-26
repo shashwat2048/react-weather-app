@@ -1,6 +1,6 @@
 function SearchBar({ search, onSearchChange, onSearchSubmit }) {
   return (
-    <div className="flex items-center mb-4 z-10 max-w-sm w-full mx-auto">
+    <div className="flex items-center mb-4 z-10 max-w-sm w-full mx-auto text-black">
       <input
         type="text"
         value={search}
